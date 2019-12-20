@@ -17,6 +17,9 @@ Second, activate your env
 or deactivate you env when you are under `myenv`:
 `conda deactivate`
 
+Third, delete an environment
+`conda remove --name myenv --all`
+
 # Other command lines to know
 
 Find all env
