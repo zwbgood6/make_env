@@ -12,7 +12,9 @@ Create project folder - `MADDPG` (this folder includes `cloned files from github
 
 Create `myenv` (change `myenv` with other name), 
 
-`python3 -m venv myenv`
+If you want to install `python3.6` in `myenv`, run `virtualenv --python=python3.6 myvenv` 
+
+If you don't specify the python version, run `python3 -m venv myenv` 
 
 `cd myenv/bin`
 
