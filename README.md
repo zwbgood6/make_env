@@ -24,7 +24,7 @@ Deactivate `myenv` when you are under `myenv`:
 
 `deactivate`
 
-**Attention**: Only putting `myenv` in the project folder can vscode finds `myenv`. 
+**Attention**: Only putting `myenv` in the project folder can vscode finds `myenv`. There is another method below, you do not need to put `myenv` in the same folder.
 
 ## vscode
 
@@ -38,6 +38,13 @@ Type
 
 Choose `myenv`
 
+## What to do if `myenv` is in another place?
+
+- `ctrl + P`, 
+
+- search `settings.json`, 
+
+- add `"python.pythonPath": "/home/zwenbo/Documents/research/SARL/sarl_env/bin/python3"` in the json file
 ____________________________________________________________________________________________________________________________
 
 # conda
